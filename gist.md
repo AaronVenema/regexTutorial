@@ -77,5 +77,6 @@ look-behind (?<=u) or (?<!u) <br>
 None of which are present. 
 
 ## Author
+I am  a new full stack developer and previously a respiratory therapist. 
 Aaron Venema Github profile:
 https://github.com/AaronVenema
