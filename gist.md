@@ -1,5 +1,5 @@
 # RegexTutorial
-The regex expression we will be discussing in this file has to do with matching an email <br> /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/<br>. 
+The regex expression we will be discussing in this file has to do with matching an email <br> /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/<br>. <br>
 (user)@(service provider).(domain name)
 
 ## Summary
@@ -32,7 +32,7 @@ Quantifiers that are utilized in the expression are {2,6} which allows the minim
 
 ### OR Operator
 <br> /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/<br>
-The OR operator (|) allows for two result cases. For example if we wanted an email ending in .com or .net (.com | .net).
+The OR operator (|) allows for two result cases. For example if we wanted an email ending in .com or .net (.com | .net) which isnt present in this statement.
 
 ### Character Classes
 <br> /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/<br>
@@ -41,7 +41,7 @@ The character class in this expression is in the second group expression notated
 ### Flags
 <br> /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/<br>
 There are only six flags in regex statements (i or g or m or s or u or y) and they are optional. 
-i makes the search case-insensitive. g looks for all matches. m enables multiline mode. s enables dotail mode. u enables unicode support. Finally y enables stick mode searching.  
+i makes the search case-insensitive. g looks for all matches. m enables multiline mode. s enables dotail mode. u enables unicode support. Finally y enables sticky mode searching.  
 
 ### Grouping and Capturing
 <br> /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/<br>
@@ -63,7 +63,7 @@ This regex contains a greedy match due to + character and {2,6}.
 
 ### Boundaries
 <br> /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/<br>
-Typical regex statement boundary characters such as (\b) allows for word matching. For example \bball\b would match red ball but not baseball. 
+Typical regex statement boundary characters such as (\b) allows for word matching. For example \bball\b would match red ball but not baseball. None are present in this statement.
 
 ### Back-references
 <br> /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/<br>
@@ -77,4 +77,5 @@ look-behind (?<=u) or (?<!u) <br>
 None of which are present. 
 
 ## Author
-Aaron Venema
+Aaron Venema Github profile:
+https://github.com/AaronVenema
